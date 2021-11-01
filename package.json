@@ -22,7 +22,7 @@
     "watch": "tsdx watch",
     "test": "tsdx test",
     "prepublishOnly": "tsdx build",
-    "prepare": "tsdx build && husky install",
+    "prepare": "yarn build",
     "prettier": "prettier --write 'src/**/*.ts' 'test/**/*.ts'"
   },
   "lint-staged": {
